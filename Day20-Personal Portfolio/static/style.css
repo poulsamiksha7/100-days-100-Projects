@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #1A1E2E;
+    color: #E8EAF0;
+    font-family: 'Lora', serif;
+}
+
+nav{
+background-color: #111520;
+padding: 12px 0;
+border-bottom: 4px double #C9A84C;
+}
+.nav-link{
+      background-color: #0A0B0D; /* Ink Black */
+  color: #F6F1E5;            /* Classic Parchment White */
+  font-family: 'Playfair Display', serif;
+}
+h1, h2 ,h3, h5{
+    color: #F0E6C8;
+    font-family: 'Lora','serif';
+    margin-bottom: 20px;
+}
+.card{
+    background-color:#2E3A52;
+    border: 2px solid #C9A84C;
+    margin-bottom: 20px;
+    padding: 10px;
+    height: 100%;
+}
+.card .col-md-4{
+    display: flex;
+}
+.card-body{
+    display: flex;
+flex-direction: column;
+}
+.card-body .text-center{
+    margin-top: auto;
+}
+.card-title{
+    color: #F0E6C8;
+}
+.badge{
+    background: linear-gradient(
+    135deg, 
+    #695E3C 0%, 
+    #968553 25%, 
+    #B39F64 50%, 
+    #968553 75%, 
+    #695E3C 100%
+  );
+  color: #1B1C22; /* Charcoal Ink */
+  /* Creates a slight parchment-colored highlight lip below the text */
+  text-shadow: 0 1px 0px rgba(255, 253, 249, 0.2); 
+}
+.btn{
+    border: 4px double #967A44;
+    color: #7A6E47;
+}
+footer{
+      background-color:#111520; /* Ink Black Background */
+  color: #C5A059;
+  text-align: center;
+  padding: 20px;
+}
+section{
+    padding: 40px 20px;
+    max-width: 1100px;
+margin: 0 auto;
+}
+img{
+    border-radius: 50%;
+    border: 3px solid #C9A84C;
+    display: block;
+    margin: 20px auto;
+}
+a{
+    color: #B0B8C8;            /* Muted Linen Nav Link */
+  text-decoration: none;
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  transition: color 0.2s ease;
+}
+h6{
+    color: #C9A84C;
+margin-top: 10px;
+}
+p{
+    color: #B0B8C8;
+}
+.hero{
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+min-height: 80vh;
+justify-content: center;
+}
+.hero h1{
+    text-align: center;
+}
+.hero p{
+    text-align: center;
+}
+.hero .btn{
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
+.list-group-item{
+    background-color: #2E3A52;
+color: #E8EAF0;
+border-color: #C9A84C;
+}
